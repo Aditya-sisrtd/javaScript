@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(57, 57, 55);
+  color: antiquewhite;
+}
+.box{
+  width: 100px;
+  height: 250px;
+  border: 2px solid whitesmoke;
+  margin: 10px;
+  background-color: rgb(79, 64, 26);
+  text-align: center;
+
+
+}

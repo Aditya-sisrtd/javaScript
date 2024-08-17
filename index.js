@@ -27,3 +27,10 @@ let divs = document.querySelectorAll('.box');
 divs[0].innerText = 'new Unique Value one';
 divs[1].innerText = 'new Unique Value two'
 divs[2].innerText = 'new Unique Value three'
+let index = 1;
+for(let div of divs){
+  // using the concept of string interpolation
+ div.innerText = `new unique value ${index}`;
+ index++;
+}
+console.log(divs[1].innerText)
